@@ -162,7 +162,7 @@
                 SYM {
                         bindings = <
          /*     ~         [           {          (          *              ~          )           }        ]         */
-             &TILDE    &kp LBKT   &kp LBRC   &kp LPAR  &kp ASTRK      &kp TILDE  &kp RPAR    &kp RBRC  &kp RBKT   &trans  
+             &kp TILDE    &kp LBKT   &kp LBRC   &kp LPAR  &kp ASTRK      &kp TILDE  &kp RPAR    &kp RBRC  &kp RBKT   &trans  
  /*             |         @           #           -         <              >          _           $        /           `  */
              &kp PIPE  &kp AT     &kp HASH   &kp KP_MINUS &kp LT      &kp GT     &kp UNDER   &kp DOLLAR &kp FSLH  &kp GRAVE  
   /*                      %           ^           &                                   +           =        \        */   
