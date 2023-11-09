@@ -142,6 +142,7 @@
         };
 
         ctrl+shift {
+            timeout-ms = <44>;
             bindings = <&kp RS(RCTRL)>;
             key-positions = <18 28>;
         };
