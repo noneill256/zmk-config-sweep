@@ -153,7 +153,7 @@
 
         BASE {
             bindings = <
-&kp FSLH  &kp H  &kp G  &kp R      &kp P        &kp Y    &kp D     &kp O  &none  &td1
+&kp FSLH  &kp H  &kp G  &kp R      &kp P        &kp Y    &kp D     &kp O  &kp M  &kp SEMI
 &kp Z     &kp S  &kp E  &kp A      &kp F        &kp B    &kp T     &kp N  &kp I  &td0
 &kp EXCL  &kp X  &kp C  &kp V      &kp J        &kp K    &kp L     &kp W  &kp U  &kp SQT
                         &kp SPACE  &kp COMMA    &kp DOT  &kp BSPC
