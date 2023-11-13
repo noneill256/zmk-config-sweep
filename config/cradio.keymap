@@ -87,12 +87,6 @@
             bindings = <&mo 3>;
         };
 
-        combo_ralt {
-            timeout-ms = <36>;
-            key-positions = <6 16>;
-            bindings = <&kp RALT>;
-        };
-
         combo_rshift {
             timeout-ms = <36>;
             key-positions = <17 18>;
@@ -141,10 +135,14 @@
             bindings = <&tog NAV>;
         };
 
-        ctrl+shift {
-            timeout-ms = <44>;
+        combo_ralt {
+            bindings = <&kp RALT>;
+            key-positions = <7 8>;
+        };
+
+        combo_shift_ctrl {
             bindings = <&kp RS(RCTRL)>;
-            key-positions = <18 28>;
+            key-positions = <16 26>;
         };
     };
 
