@@ -145,7 +145,17 @@
             key-positions = <16 26>;
         };
 
+        combo_next_sheet {
+            timeout-ms = <30>;
+            key-positions = <16 26>;
+            bindings = <&kp RALT(DOWN)>;
+        };
 
+        combo_prev_sheet {
+            timeout-ms = <30>;
+            key-positions = <13 23>;
+            bindings = <&kp LALT(UP)>;
+        };
         
     };
 
@@ -154,13 +164,13 @@
 
         BASE {
             bindings = <
-0         1      2      3          4            5        6         7      8      9
+/*0         1      2      3          4            5        6         7      8      9 */
 &kp FSLH  &kp H  &kp G  &kp R      &kp P        &kp Y    &kp D     &kp O  &kp M  &kp SEMI
-10        11     12     13         14           15       16        17     18     19
+/*10        11     12     13         14           15       16        17     18     19 */
 &kp Z     &kp S  &kp E  &kp A      &kp F        &kp B    &kp T     &kp N  &kp I  &td0
-20        21     22     23         24           25       26        27     28     29
+/*20        21     22     23         24           25       26        27     28     29 */
 &kp EXCL  &kp X  &kp C  &kp V      &kp J        &kp K    &kp L     &kp W  &kp U  &kp SQT
-                        30         31           32       33
+                     /*   30         31           32       33  */
                         &kp SPACE  &kp COMMA    &kp DOT  &kp BSPC
             >;
         };
