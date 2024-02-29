@@ -151,11 +151,7 @@
             bindings = <&kp LALT(UP)>;
         };
 
-        combo_next_sheet {
-            timeout-ms = <30>;
-            key-positions = <16 26>;
-            bindings = <&kp RALT(DOWN)>;
-        };
+        
     };
 
     keymap {
