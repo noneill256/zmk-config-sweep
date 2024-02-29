@@ -147,13 +147,13 @@
 
         combo_next_sheet {
             timeout-ms = <30>;
-            key-positions = <16 26>;
+            key-positions = <7 17>;
             bindings = <&kp RALT(DOWN)>;
         };
 
         combo_prev_sheet {
             timeout-ms = <30>;
-            key-positions = <13 23>;
+            key-positions = <2 12>;
             bindings = <&kp LALT(UP)>;
         };
         
