@@ -156,6 +156,12 @@
             key-positions = <2 12>;
             bindings = <&kp LA(UP)>;
         };
+
+        combo_switch_window {
+            timeout-ms = <30>;
+            key-positions = <1 27 28>;
+            bindings = <&kp RG(GRAVE)>;
+        };
         
     };
 
